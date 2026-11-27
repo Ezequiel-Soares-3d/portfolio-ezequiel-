@@ -1,40 +1,271 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f5f4f0"><meta name="description" content="Modelagem 3D aplicada à arquitetura e engenharia. Apoio técnico para escritórios, profissionais e estudantes."><title>Ezequiel Soares 3D — Modelagem para arquitetura e engenharia</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><style>
-:root{--bg:#f5f4f0;--ink:#20221f;--muted:#70736d;--line:#dcded7;--accent:#b7c9a8;--dark:#222923;--white:#fff;--max:1240px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 64px));margin:auto}.topline{border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}.topline .wrap{height:38px;display:flex;align-items:center;justify-content:space-between}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:800 17px Manrope;letter-spacing:-.06em}.brand small{display:block;font:500 9px 'DM Sans';letter-spacing:.2em;color:var(--muted);margin-top:3px}.navlinks{display:flex;gap:30px;font-size:13px;color:#555a53}.navlinks a:hover,.textlink:hover{color:#718666}.nav-cta{padding:12px 17px;border:1px solid var(--ink);font-size:12px}.hero{padding:94px 0 76px;display:grid;grid-template-columns:1.02fr .98fr;gap:64px;align-items:center}.eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#6d7968;font-weight:700}.hero h1{font:600 clamp(44px,6vw,78px)/1.02 Manrope;letter-spacing:-.075em;margin:24px 0 25px;max-width:650px}.hero h1 em{font-style:normal;color:#77866f}.hero p{font-size:17px;line-height:1.75;color:#62665f;max-width:540px;margin:0 0 32px}.actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap}.button{background:var(--dark);color:white;padding:16px 22px;font-size:12px;font-weight:600;display:inline-flex;gap:20px;align-items:center}.textlink{font-size:12px;font-weight:600;border-bottom:1px solid #9da397;padding-bottom:5px}.hero-visual{position:relative;background:#e6e8e1;padding:18px;min-height:420px}.hero-visual img{width:100%;height:420px;display:block;object-fit:contain;background:#eef0ea}.visual-label{position:absolute;bottom:30px;left:30px;background:rgba(245,244,240,.94);padding:13px 16px;font-size:10px;letter-spacing:.12em;text-transform:uppercase}.hero-note{position:absolute;right:-12px;top:35px;writing-mode:vertical-rl;font-size:10px;letter-spacing:.15em;color:#74796f}.metrics{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(3,1fr);padding:22px 0}.metric{padding:0 28px;border-right:1px solid var(--line)}.metric:first-child{padding-left:0}.metric:last-child{border:0}.metric strong{display:block;font:600 15px Manrope;margin-bottom:5px}.metric span{font-size:11px;color:var(--muted)}section{padding:104px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:44px}.section-head h2{font:600 clamp(34px,4vw,52px)/1.08 Manrope;letter-spacing:-.065em;margin:14px 0 0;max-width:660px}.section-head p{max-width:360px;color:var(--muted);font-size:14px;line-height:1.7;margin:0}.services{background:var(--dark);color:#f4f4ef}.services .eyebrow{color:#b8c8ae}.services .section-head p{color:#b8beb5}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #59615a}.service{padding:28px 24px 12px 0;border-right:1px solid #59615a;margin-right:24px;min-height:220px}.service:last-child{border:0;margin:0}.num{font-size:11px;color:#b8c8ae}.service h3{font:600 20px Manrope;letter-spacing:-.04em;margin:42px 0 12px}.service p{font-size:13px;line-height:1.7;color:#c2c8c0;margin:0}.portfolio{padding-bottom:90px}.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{border:1px solid var(--line);background:transparent;padding:10px 14px;font:500 11px 'DM Sans';cursor:pointer;color:#656a62}.filter.active{background:var(--dark);border-color:var(--dark);color:white}.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px 22px}.work-card[hidden]{display:none}.work-image{display:block;background:#e8e9e3;aspect-ratio:4/3;overflow:hidden}.work-image img{width:100%;height:100%;object-fit:contain;display:block;transition:transform .5s}.work-image:hover img{transform:scale(1.025)}.work-meta{display:flex;justify-content:space-between;margin-top:15px;font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:#788072}.work-card h3,.video-card h3{font:600 16px Manrope;letter-spacing:-.03em;margin:9px 0 5px}.work-card p{font-size:12px;color:var(--muted);margin:0}.process{background:#e9ebe5}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}.step{border-top:1px solid #aeb5a8;padding-top:18px}.step b{font:600 11px Manrope;color:#78866f}.step h3{font:600 19px Manrope;letter-spacing:-.04em;margin:27px 0 10px}.step p{font-size:13px;line-height:1.7;color:#686e64;margin:0}.audience-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.audience{padding:34px;background:#fff;border:1px solid var(--line);min-height:190px}.audience h3{font:600 21px Manrope;margin:0 0 12px;letter-spacing:-.04em}.audience p{font-size:13px;line-height:1.75;color:var(--muted);margin:0}.videos{background:#f0f0eb}.video-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.video-card video{width:100%;aspect-ratio:16/9;background:#dfe2da;display:block}.about{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px;align-items:start}.about h2{font:600 42px/1.08 Manrope;letter-spacing:-.06em;margin:14px 0}.about-copy{font-size:16px;line-height:1.85;color:#62675f;max-width:700px}.contact{background:var(--dark);color:white;padding:86px 0}.contact .eyebrow{color:#b8c8ae}.contact-row{display:flex;align-items:end;justify-content:space-between;gap:40px}.contact h2{font:600 clamp(40px,5vw,64px)/1.04 Manrope;letter-spacing:-.07em;max-width:720px;margin:18px 0 0}.contact .button{background:#e9eee5;color:#202820}.contact p{color:#c1c8bf;font-size:14px;line-height:1.7;max-width:470px}.footer{padding:26px 0;color:#777d73;font-size:10px;letter-spacing:.1em;text-transform:uppercase}.footer .wrap{display:flex;justify-content:space-between;gap:20px}.mobile-menu{display:none}
-@media(max-width:850px){.wrap{width:min(100% - 40px,var(--max))}.navlinks{gap:14px}.hero{grid-template-columns:1fr;gap:38px;padding:65px 0}.hero-visual{min-height:320px}.hero-visual img{height:320px}.hero-note{right:8px}.service-grid{grid-template-columns:1fr 1fr}.service{margin:0;padding:22px 16px 22px 0;min-height:190px}.work-grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr;gap:12px}.contact-row{display:block}.contact .button{margin-top:25px}}
-@media(max-width:580px){.topline .wrap span:last-child{display:none}.nav{height:70px}.navlinks{display:none}.nav-cta{padding:10px 12px}.hero h1{font-size:47px}.hero p{font-size:15px}.metrics{grid-template-columns:1fr;gap:16px}.metric{padding:0;border:0}.section-head{display:block}.section-head p{margin-top:18px}.section-head h2{font-size:37px}.service-grid,.work-grid,.steps,.audience-grid,.video-grid{grid-template-columns:1fr}.service{border-right:0;border-bottom:1px solid #59615a;margin:0;min-height:0}.service h3{margin-top:20px}.work-image{aspect-ratio:5/4}section{padding:72px 0}.hero-visual{padding:10px}.hero-visual img{height:270px}.visual-label{left:20px;bottom:20px}.footer .wrap{display:block;line-height:2.2}}
-</style></head><body><div class="topline"><div class="wrap"><span>Modelagem 3D · Arquitetura · Engenharia</span><span>Atendimento remoto · Brasil</span></div></div><header class="wrap nav"><a class="brand" href="#inicio">EZEQUIEL SOARES 3D<small>MODELAGEM PARA PROJETOS</small></a><nav class="navlinks"><a href="#servicos">Serviços</a><a href="#portfolio">Portfólio</a><a href="#processo">Processo</a><a href="#sobre">Sobre</a></nav><a class="nav-cta" href="#contato">Vamos conversar ↗</a></header>
-<main><section class="wrap hero" id="inicio"><div><div class="eyebrow">Suporte técnico em modelagem tridimensional</div><h1>Seu projeto, visto em <em>três dimensões.</em></h1><p>Desenvolvimento de modelos 3D para arquitetura e engenharia. Apoio técnico para escritórios, profissionais e estudantes que precisam transformar desenhos e ideias em modelos tridimensionais.</p><div class="actions"><a class="button" href="#contato">Apresente seu projeto <span>↗</span></a><a class="textlink" href="#portfolio">Explorar trabalhos ↓</a></div></div><div class="hero-visual"><img src="assets/sketchup-1.webp" alt="Exemplo de modelagem tridimensional do portfólio"><span class="visual-label">Modelagem como ferramenta de projeto</span><span class="hero-note">EZEQUIEL SOARES · 3D</span></div></section>
-<div class="wrap metrics"><div class="metric"><strong>Modelagem do zero</strong><span>A partir de desenhos, referências e arquivos técnicos</span></div><div class="metric"><strong>Suporte complementar</strong><span>Uma extensão da equipe do escritório</span></div><div class="metric"><strong>Modelos utilizáveis</strong><span>Base para documentação, estudos e renderização</span></div></div>
-<section class="services" id="servicos"><div class="wrap"><div class="section-head"><div><div class="eyebrow">O que eu faço</div><h2>Modelagem que acompanha o desenvolvimento do projeto.</h2></div><p>Mais do que criar uma imagem final, o objetivo é entregar um modelo tridimensional útil para continuar trabalhando.</p></div><div class="service-grid"><article class="service"><span class="num">01 / ESCRITÓRIOS</span><h3>Apoio à equipe</h3><p>Suporte externo para escritórios de arquitetura e engenharia, acompanhando demandas e etapas do desenvolvimento.</p></article><article class="service"><span class="num">02 / MODELAGEM</span><h3>Modelagem 3D</h3><p>Construção de modelos a partir de plantas, cortes, fachadas, arquivos CAD e referências fornecidas.</p></article><article class="service"><span class="num">03 / BIM & REVIT</span><h3>Ajustes e volumetria</h3><p>Desenvolvimento e refinamento de volumetrias e modelos existentes em Revit, conforme a necessidade do projeto.</p></article><article class="service"><span class="num">04 / ACADÊMICO</span><h3>Suporte a estudantes</h3><p>Modelagem de projetos de estudo, TCCs e materiais de apoio para estudantes de Arquitetura e Engenharia Civil.</p></article></div></div></section>
-<section class="portfolio wrap" id="portfolio"><div class="section-head"><div><div class="eyebrow">Seleção de trabalhos</div><h2>Modelos, estudos e desenvolvimento.</h2></div><div class="filters"><button class="filter active" data-filter="Todos">Todos</button><button class="filter" data-filter="SketchUp">SketchUp</button><button class="filter" data-filter="Revit">Revit</button><button class="filter" data-filter="Imagens humanizadas">Humanizadas</button></div></div><div class="work-grid"><article class="work-card" data-category="Imagens humanizadas"><a class="work-image" href="assets/humanizadas-1.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/humanizadas-1.webp" alt="Imagens humanizadas — HUMANIZADAS (1).jpeg" /></a><div class="work-meta"><span>Imagens humanizadas</span><span>1600 × 900</span></div><h3>HUMANIZADAS (1)</h3><p>Material complementar de apresentação</p></article>
-<article class="work-card" data-category="Imagens humanizadas"><a class="work-image" href="assets/humanizadas-2.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/humanizadas-2.webp" alt="Imagens humanizadas — HUMANIZADAS (2).jpeg" /></a><div class="work-meta"><span>Imagens humanizadas</span><span>1600 × 900</span></div><h3>HUMANIZADAS (2)</h3><p>Material complementar de apresentação</p></article>
-<article class="work-card" data-category="Imagens humanizadas"><a class="work-image" href="assets/humanizadas-3.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/humanizadas-3.webp" alt="Imagens humanizadas — HUMANIZADAS (3).jpeg" /></a><div class="work-meta"><span>Imagens humanizadas</span><span>1600 × 900</span></div><h3>HUMANIZADAS (3)</h3><p>Material complementar de apresentação</p></article>
-<article class="work-card" data-category="Imagens humanizadas"><a class="work-image" href="assets/humanizadas-4.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/humanizadas-4.webp" alt="Imagens humanizadas — HUMANIZADAS (4).jpeg" /></a><div class="work-meta"><span>Imagens humanizadas</span><span>1600 × 900</span></div><h3>HUMANIZADAS (4)</h3><p>Material complementar de apresentação</p></article>
-<article class="work-card" data-category="Revit"><a class="work-image" href="assets/revit.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/revit.webp" alt="Revit — REVIT.jpeg" /></a><div class="work-meta"><span>Revit</span><span>1385 × 778</span></div><h3>REVIT</h3><p>Modelagem BIM e desenvolvimento de volumetria</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-1.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-1.webp" alt="SketchUp — SKETCHUP (1).jpeg" /></a><div class="work-meta"><span>SketchUp</span><span>1496 × 660</span></div><h3>SKETCHUP (1)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-1.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-1.webp" alt="SketchUp — SKETCHUP (1).jpg" /></a><div class="work-meta"><span>SketchUp</span><span>2200 × 1033</span></div><h3>SKETCHUP (1)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-1.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-1.webp" alt="SketchUp — SKETCHUP (1).png" /></a><div class="work-meta"><span>SketchUp</span><span>1662 × 811</span></div><h3>SKETCHUP (1)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-10.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-10.webp" alt="SketchUp — SKETCHUP (10).png" /></a><div class="work-meta"><span>SketchUp</span><span>1493 × 770</span></div><h3>SKETCHUP (10)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-11.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-11.webp" alt="SketchUp — SKETCHUP (11).png" /></a><div class="work-meta"><span>SketchUp</span><span>1416 × 832</span></div><h3>SKETCHUP (11)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-2.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-2.webp" alt="SketchUp — SKETCHUP (2).png" /></a><div class="work-meta"><span>SketchUp</span><span>1750 × 790</span></div><h3>SKETCHUP (2)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-3.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-3.webp" alt="SketchUp — SKETCHUP (3).png" /></a><div class="work-meta"><span>SketchUp</span><span>1738 × 797</span></div><h3>SKETCHUP (3)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-4.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-4.webp" alt="SketchUp — SKETCHUP (4).jpeg" /></a><div class="work-meta"><span>SketchUp</span><span>1254 × 692</span></div><h3>SKETCHUP (4)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-4.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-4.webp" alt="SketchUp — SKETCHUP (4).png" /></a><div class="work-meta"><span>SketchUp</span><span>1664 × 664</span></div><h3>SKETCHUP (4)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-5.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-5.webp" alt="SketchUp — SKETCHUP (5).jpeg" /></a><div class="work-meta"><span>SketchUp</span><span>1154 × 630</span></div><h3>SKETCHUP (5)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-5.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-5.webp" alt="SketchUp — SKETCHUP (5).png" /></a><div class="work-meta"><span>SketchUp</span><span>1766 × 807</span></div><h3>SKETCHUP (5)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-6.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-6.webp" alt="SketchUp — SKETCHUP (6).png" /></a><div class="work-meta"><span>SketchUp</span><span>1759 × 779</span></div><h3>SKETCHUP (6)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-7.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-7.webp" alt="SketchUp — SKETCHUP (7).jpeg" /></a><div class="work-meta"><span>SketchUp</span><span>1284 × 769</span></div><h3>SKETCHUP (7)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-7.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-7.webp" alt="SketchUp — SKETCHUP (7).png" /></a><div class="work-meta"><span>SketchUp</span><span>1573 × 747</span></div><h3>SKETCHUP (7)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-8.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-8.webp" alt="SketchUp — SKETCHUP (8).jpeg" /></a><div class="work-meta"><span>SketchUp</span><span>1118 × 639</span></div><h3>SKETCHUP (8)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-8.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-8.webp" alt="SketchUp — SKETCHUP (8).png" /></a><div class="work-meta"><span>SketchUp</span><span>1815 × 809</span></div><h3>SKETCHUP (8)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-9.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-9.webp" alt="SketchUp — SKETCHUP (9).jpeg" /></a><div class="work-meta"><span>SketchUp</span><span>1600 × 727</span></div><h3>SKETCHUP (9)</h3><p>Modelagem tridimensional e estudos de projeto</p></article>
-<article class="work-card" data-category="SketchUp"><a class="work-image" href="assets/sketchup-9.webp" target="_blank" rel="noreferrer"><img loading="lazy" src="assets/sketchup-9.webp" alt="SketchUp — SKETCHUP (9).png" /></a><div class="work-meta"><span>SketchUp</span><span>1364 × 736</span></div><h3>SKETCHUP (9)</h3><p>Modelagem tridimensional e estudos de projeto</p></article></div></section>
-<section class="process" id="processo"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Fluxo de trabalho</div><h2>Um processo direto, do arquivo à entrega.</h2></div><p>O escopo é definido conforme o material de entrada, o nível de desenvolvimento e o uso previsto para o modelo.</p></div><div class="steps"><article class="step"><b>01 — RECEBIMENTO</b><h3>Entendimento</h3><p>Você compartilha desenhos, arquivos, referências e explica o objetivo do modelo.</p></article><article class="step"><b>02 — DEFINIÇÃO</b><h3>Escopo</h3><p>Alinhamos nível de detalhamento, software, formato de entrega e prazo.</p></article><article class="step"><b>03 — DESENVOLVIMENTO</b><h3>Modelagem</h3><p>O modelo é desenvolvido com acompanhamento e validações ao longo do processo.</p></article><article class="step"><b>04 — ENTREGA</b><h3>Continuidade</h3><p>Você recebe os arquivos combinados para dar sequência ao seu trabalho.</p></article></div></div></section>
-<section class="wrap"><div class="section-head"><div><div class="eyebrow">Quem pode contar comigo</div><h2>Um parceiro de modelagem para diferentes necessidades.</h2></div></div><div class="audience-grid"><article class="audience"><h3>Escritórios de arquitetura e engenharia</h3><p>Reforço de equipe em demandas específicas, desenvolvimento de modelos e apoio externo sem precisar ampliar a estrutura interna.</p></article><article class="audience"><h3>Arquitetos e engenheiros</h3><p>Suporte pontual para transformar desenhos técnicos em modelos que ajudem a estudar, revisar e desenvolver soluções.</p></article><article class="audience"><h3>Estudantes de Arquitetura</h3><p>Modelagem de projetos acadêmicos, estudos volumétricos, TCCs e material tridimensional para apresentação e desenvolvimento.</p></article><article class="audience"><h3>Estudantes de Engenharia Civil</h3><p>Modelos tridimensionais como material de apoio para estudos, disciplinas e trabalhos acadêmicos.</p></article></div></section>
-<section class="videos"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Em movimento</div><h2>Veja alguns registros do processo.</h2></div><p>Vídeos de navegação e desenvolvimento ajudam a visualizar o modelo além de uma imagem estática.</p></div><div class="video-grid"><article class="video-card"><video controls preload="metadata" playsinline><source src="assets/revit-2.mp4" type="video/mp4"></video><div class="work-meta"><span>Processo de modelagem</span><span>Vídeo</span></div><h3>REVIT 2</h3></article>
-<article class="video-card"><video controls preload="metadata" playsinline><source src="assets/sketchup-2.mp4" type="video/mp4"></video><div class="work-meta"><span>Processo de modelagem</span><span>Vídeo</span></div><h3>SKETCHUP (2)</h3></article>
-<article class="video-card"><video controls preload="metadata" playsinline><source src="assets/sketchup-3.mp4" type="video/mp4"></video><div class="work-meta"><span>Processo de modelagem</span><span>Vídeo</span></div><h3>SKETCHUP (3)</h3></article>
-<article class="video-card"><video controls preload="metadata" playsinline><source src="assets/sketchup-1.mp4" type="video/mp4"></video><div class="work-meta"><span>Processo de modelagem</span><span>Vídeo</span></div><h3>SKETCHUP (1)</h3></article></div></div></section>
-<section class="wrap about" id="sobre"><div><div class="eyebrow">Sobre</div><h2>Ezequiel<br>Soares 3D.</h2></div><div class="about-copy">Atuo com modelagem tridimensional aplicada à arquitetura e à engenharia, oferecendo suporte no desenvolvimento de projetos. A proposta é trabalhar em parceria com profissionais, escritórios e estudantes, contribuindo com a construção e o aprimoramento de modelos 3D que possam ser utilizados nas próximas etapas do trabalho.<br><br>O foco está no modelo e na sua utilidade. A renderização pode fazer parte de uma demanda quando necessário, mas não é o centro do serviço.</div></section>
-<section class="contact" id="contato"><div class="wrap contact-row"><div><div class="eyebrow">Vamos conversar sobre seu projeto?</div><h2>Tem uma demanda de modelagem? Vamos entender.</h2><p>Envie uma breve descrição do projeto e dos arquivos disponíveis. A partir disso, podemos avaliar o escopo e os próximos passos.</p></div><a class="button" href="https://wa.me/?text=Ol%C3%A1%2C%20Ezequiel!%20Gostaria%20de%20conversar%20sobre%20uma%20demanda%20de%20modelagem%203D.">Entrar em contato <span>↗</span></a></div></section></main><footer class="footer"><div class="wrap"><span>© 2026 Ezequiel Soares 3D</span><span>Modelagem 3D para arquitetura e engenharia</span><span>Portfólio profissional</span></div></footer>
-<script>document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const f=btn.dataset.filter;document.querySelectorAll('.work-card').forEach(card=>card.hidden=!(f==='Todos'||card.dataset.category===f));}));</script></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171a18">
+<meta name="description" content="Ezequiel Soares — modelagem 3D e representação arquitetônica.">
+<title>Ezequiel Soares — Modelagem 3D & Arquitetura</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--ink:#171a18;--paper:#f1f0eb;--muted:#777a72;--line:#d6d6cd;--acid:#d5f36a;--white:#fbfbf8;--serif:Georgia,serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button{font:inherit}
+.wrap{width:min(1320px,calc(100% - 64px));margin:auto}
+.topbar{height:76px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}
+.brand{font-family:Manrope,sans-serif;font-size:14px;font-weight:800;letter-spacing:-.04em}
+.brand span{color:#777}
+.nav{display:flex;gap:30px;font-size:12px;color:#555950}
+.nav a:hover{color:#000}
+.availability{display:flex;align-items:center;gap:9px;font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase}
+.dot{width:7px;height:7px;background:#8da83c;border-radius:50%;box-shadow:0 0 0 4px #dce7bd}
+.hero{padding:100px 0 76px;position:relative;overflow:hidden}
+.hero:after{content:'3D';position:absolute;right:-15px;top:42px;font:800 clamp(170px,30vw,420px)/.8 Manrope,sans-serif;letter-spacing:-.12em;color:#e8e7df;z-index:0;pointer-events:none}
+.hero-content{position:relative;z-index:1;max-width:930px}
+.kicker,.eyebrow{font:11px 'DM Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:#777a72}
+.hero h1{font:800 clamp(54px,9.4vw,124px)/.94 Manrope,sans-serif;letter-spacing:-.085em;margin:24px 0 28px;max-width:1000px}
+.hero h1 em{font-family:var(--serif);font-weight:400;letter-spacing:-.07em}
+.hero-bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-top:48px}
+.hero-copy{font-size:17px;line-height:1.55;max-width:500px;color:#53574f}
+.hero-cta{display:inline-flex;align-items:center;gap:18px;border-bottom:1px solid var(--ink);padding:0 0 9px;font-size:12px;font-weight:700;white-space:nowrap}
+.hero-cta b{font-size:20px;font-weight:400}
+.marquee{background:var(--acid);padding:14px 0;overflow:hidden;white-space:nowrap;font:11px 'DM Mono',monospace;letter-spacing:.1em;text-transform:uppercase}
+.marquee span{padding:0 25px}
+.section{padding:100px 0}
+.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:42px}
+.section-title{font:700 clamp(36px,5vw,64px)/1 Manrope,sans-serif;letter-spacing:-.07em;margin:14px 0 0}
+.section-intro{max-width:390px;color:#686d64;font-size:14px;line-height:1.65;margin:0}
+.services{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.service{padding:27px 26px 30px 0;min-height:190px}
+.service+.service{border-left:1px solid var(--line);padding-left:26px}
+.service-num{font:11px 'DM Mono',monospace;color:#85877e}
+.service h3{font:700 20px Manrope,sans-serif;letter-spacing:-.04em;margin:25px 0 10px}
+.service p{font-size:13px;line-height:1.65;color:#696d65;max-width:330px;margin:0}
+.work-section{background:#1b201d;color:#f6f5ef;padding:100px 0}
+.work-section .eyebrow{color:#a5aa9d}
+.work-section .section-intro{color:#b9bdb4}
+.work-section .section-title{color:#f6f5ef}
+.gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 22px}
+.project-card{padding:0;border:0;background:transparent;color:inherit;text-align:left;cursor:zoom-in;min-width:0}
+.project-image{display:flex;align-items:center;justify-content:center;width:100%;height:clamp(220px,38vw,470px);background:#292f2b;overflow:hidden;padding:12px}
+.project-image img{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;transition:transform .5s ease}
+.project-card:hover .project-image img{transform:scale(1.025)}
+.project-meta{display:flex;align-items:center;gap:15px;border-top:1px solid #444b44;padding:13px 0 0;margin-top:12px}
+.project-number{font:10px 'DM Mono',monospace;color:#a6ac9f}
+.project-type{font:10px 'DM Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#d2d6cc}
+.expand{margin-left:auto;color:var(--acid);font-size:17px}
+.subhead{display:flex;align-items:center;gap:14px;margin:70px 0 25px}
+.subhead h3{font:600 21px Manrope,sans-serif;letter-spacing:-.04em;margin:0}
+.subhead span{font:10px 'DM Mono',monospace;color:#a5aa9d}
+.note{font-size:12px;line-height:1.6;color:#a5aa9d;margin-top:28px;max-width:720px}
+.profile-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:70px}
+.profile-text{font-size:clamp(19px,2.2vw,27px);line-height:1.45;letter-spacing:-.025em;max-width:690px;margin:0}
+.profile-text strong{font-weight:700}
+.profile-aside{border-top:1px solid var(--ink);padding-top:20px}
+.profile-aside h3{font:700 14px Manrope,sans-serif;margin:0 0 18px}
+.tool-list{display:flex;flex-wrap:wrap;gap:8px}
+.tool-list span{border:1px solid #c9cbc1;border-radius:99px;padding:8px 12px;font:10px 'DM Mono',monospace;color:#4f554c}
+.timeline{margin-top:80px;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+.timeline div{padding:19px 20px 0 0}
+.timeline strong{display:block;font:700 23px Manrope,sans-serif;letter-spacing:-.06em}
+.timeline small{font:10px 'DM Mono',monospace;color:#777a72;text-transform:uppercase;letter-spacing:.08em}
+.contact-section{background:var(--acid);padding:88px 0 75px}
+.contact-section .eyebrow{color:#586331}
+.contact-title{font:800 clamp(42px,7vw,92px)/.98 Manrope,sans-serif;letter-spacing:-.08em;max-width:900px;margin:22px 0 38px}
+.contact-row{display:flex;justify-content:space-between;align-items:flex-end;gap:25px;border-top:1px solid #9cac58;padding-top:22px}
+.email{font:600 clamp(17px,2.4vw,25px) Manrope,sans-serif;letter-spacing:-.04em;overflow-wrap:anywhere}
+.contact-details{font:11px 'DM Mono',monospace;line-height:1.8;text-align:right}
+.footer{padding:22px 0;display:flex;justify-content:space-between;font:10px 'DM Mono',monospace;color:#7b7e74}
+.lightbox{position:fixed;inset:0;background:rgba(10,13,11,.94);display:none;align-items:center;justify-content:center;padding:24px;z-index:20}
+.lightbox.open{display:flex}
+.lightbox img{max-width:100%;max-height:88vh;object-fit:contain}
+.close{position:absolute;top:20px;right:24px;border:1px solid #697067;background:transparent;color:white;padding:10px 14px;cursor:pointer;font:11px 'DM Mono',monospace}
+@media(max-width:760px){
+ .wrap{width:calc(100% - 36px)}.topbar{height:64px}.nav{gap:14px;font-size:10px}.availability{display:none}
+ .hero{padding:75px 0 58px}.hero:after{right:-25px;top:80px}.hero-bottom{display:block;margin-top:34px}.hero-cta{margin-top:22px}
+ .section,.work-section{padding:70px 0}.section-head{display:block}.section-intro{margin-top:20px}
+ .services{grid-template-columns:1fr}.service{min-height:0;padding:22px 0}.service+.service{border-left:0;border-top:1px solid var(--line);padding-left:0}
+ .gallery-grid{grid-template-columns:1fr;gap:28px}.project-image{height: min(72vw,430px)}
+ .subhead{margin-top:50px}.profile-grid{grid-template-columns:1fr;gap:38px}.timeline{grid-template-columns:1fr 1fr;gap:20px;margin-top:48px}
+ .contact-section{padding:70px 0 55px}.contact-row{display:block}.contact-details{text-align:left;margin-top:18px}.footer{gap:12px;flex-wrap:wrap}
+}
+
+.video-section{margin-top:58px}
+.video-intro{color:var(--muted,#8b8b8b);font-size:14px;max-width:560px;margin:14px 0 22px;line-height:1.65}
+.video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.video-card{min-width:0;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.025)}
+.video-card video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#080808}
+.video-caption{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 15px;color:var(--text,#f2f0ec);font-size:13px}
+.video-caption small{color:var(--muted,#8b8b8b);font:10px 'DM Mono',monospace;letter-spacing:.08em;text-align:right}
+@media(max-width:700px){.video-grid{grid-template-columns:1fr}.video-section{margin-top:42px}.video-caption{align-items:flex-start;flex-direction:column;gap:5px}}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header class="topbar">
+  <a class="brand" href="#top">EZEQUIEL <span>SOARES / 3D</span></a>
+  <nav class="nav" aria-label="Navegação principal"><a href="#servicos">Serviços</a><a href="#trabalhos">Trabalhos</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
+  <div class="availability"><i class="dot"></i> Apresentação profissional</div>
+ </header>
+</div>
+<main id="top">
+ <section class="hero">
+  <div class="wrap hero-content">
+   <div class="kicker">Modelagem 3D · Representação arquitetônica</div>
+   <h1>Ideias ganham<br><em>forma.</em> Projetos<br>ganham clareza.</h1>
+   <div class="hero-bottom">
+    <p class="hero-copy">Apoio técnico para escritórios de arquitetura: da interpretação do projeto à construção de modelos 3D e à representação visual dos ambientes.</p>
+    <a class="hero-cta" href="#trabalhos">EXPLORAR TRABALHOS <b>↘</b></a>
+   </div>
+  </div>
+ </section>
+ <div class="marquee"><span>SKETCHUP</span> ✳ <span>MODELAGEM 3D</span> ✳ <span>PLANTAS HUMANIZADAS</span> ✳ <span>REVIT</span> ✳ <span>DESENHO TÉCNICO</span> ✳ <span>SKETCHUP</span> ✳ <span>MODELAGEM 3D</span></div>
+ <section class="section" id="servicos">
+  <div class="wrap">
+   <div class="section-head">
+    <div><div class="eyebrow">01 / O que faço</div><h2 class="section-title">Suporte visual<br>para arquitetura.</h2></div>
+    <p class="section-intro">Trabalho a partir de plantas, desenhos técnicos, croquis e informações do projeto, colaborando com o escritório sem interferir nas decisões de autoria e projeto.</p>
+   </div>
+   <div class="services">
+    <article class="service"><span class="service-num">01 — 3D</span><h3>Modelagem arquitetônica</h3><p>Construção de modelos tridimensionais para representar edificações, ambientes, implantação e elementos do projeto.</p></article>
+    <article class="service"><span class="service-num">02 — REPRESENTAÇÃO</span><h3>Plantas humanizadas</h3><p>Representação gráfica de ambientes e plantas para apoiar a leitura e a apresentação das propostas arquitetônicas.</p></article>
+    <article class="service"><span class="service-num">03 — FLUXO DE TRABALHO</span><h3>Modelos para continuar</h3><p>Modelos preparados para que o arquiteto possa seguir com seu próprio processo de visualização e renderização.</p></article>
+   </div>
+  </div>
+ </section>
+ <section class="work-section" id="trabalhos">
+  <div class="wrap">
+   <div class="section-head">
+    <div><div class="eyebrow">02 / Seleção visual</div><h2 class="section-title">Trabalhos &<br>referências.</h2></div>
+    <p class="section-intro">Uma seleção de imagens de referência disponibilizadas para esta apresentação. Clique em qualquer imagem para ampliá-la.</p>
+   </div>
+   <div class="subhead" style="margin-top:0"><h3>Modelagem 3D arquitetônica</h3><span>01 — 07</span></div>
+   <div class="gallery-grid">
+        <button class="project-card" type="button" data-full="assets/images/galeria-01.jpg" aria-label="Ampliar imagem 1">
+          <span class="project-image"><img src="assets/images/galeria-01.jpg" alt="Imagem de referência — modelagem 3d" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">001</span><span class="project-type">MODELAGEM 3D</span><span class="expand">↗</span></span>
+        </button>
+        <button class="project-card" type="button" data-full="assets/images/galeria-02.jpg" aria-label="Ampliar imagem 2">
+          <span class="project-image"><img src="assets/images/galeria-02.jpg" alt="Imagem de referência — modelagem 3d" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">002</span><span class="project-type">MODELAGEM 3D</span><span class="expand">↗</span></span>
+        </button>
+        <button class="project-card" type="button" data-full="assets/images/galeria-03.jpg" aria-label="Ampliar imagem 3">
+          <span class="project-image"><img src="assets/images/galeria-03.jpg" alt="Imagem de referência — modelagem 3d" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">003</span><span class="project-type">MODELAGEM 3D</span><span class="expand">↗</span></span>
+        </button>
+        <button class="project-card" type="button" data-full="assets/images/galeria-04.jpg" aria-label="Ampliar imagem 4">
+          <span class="project-image"><img src="assets/images/galeria-04.jpg" alt="Imagem de referência — modelagem 3d" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">004</span><span class="project-type">MODELAGEM 3D</span><span class="expand">↗</span></span>
+        </button>
+        <button class="project-card" type="button" data-full="assets/images/galeria-05.jpg" aria-label="Ampliar imagem 5">
+          <span class="project-image"><img src="assets/images/galeria-05.jpg" alt="Imagem de referência — modelagem 3d" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">005</span><span class="project-type">MODELAGEM 3D</span><span class="expand">↗</span></span>
+        </button>
+        <button class="project-card" type="button" data-full="assets/images/galeria-06.jpg" aria-label="Ampliar imagem 6">
+          <span class="project-image"><img src="assets/images/galeria-06.jpg" alt="Imagem de referência — visualização no Revit" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">006</span><span class="project-type">REVIT</span><span class="expand">↗</span></span>
+        </button>
+        <button class="project-card" type="button" data-full="assets/images/galeria-07.jpg" aria-label="Ampliar imagem 7">
+          <span class="project-image"><img src="assets/images/galeria-07.jpg" alt="Imagem de referência — modelagem 3d" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">007</span><span class="project-type">MODELAGEM 3D</span><span class="expand">↗</span></span>
+        </button></div>
+   <p class="note">A imagem identificada como Revit demonstra a utilização dessa ferramenta no fluxo de trabalho. As imagens são apresentadas como referências visuais, sem atribuição de cliente ou projeto.</p>
+   <div class="video-section">
+    <div class="subhead"><h3>Vídeos de modelagem</h3><span>PROCESSOS & FERRAMENTAS</span></div>
+    <p class="video-intro">Registros em vídeo de trabalhos e processos em SketchUp e Revit.</p>
+    <div class="video-grid">
+      <article class="video-card">
+        <video controls preload="metadata" playsinline>
+          <source src="assets/videos/01-revit-2.mp4" type="video/mp4">
+          Seu navegador não conseguiu carregar este vídeo.
+        </video>
+        <div class="video-caption"><span>Revit 2</span><small>VÍDEO DE PROCESSO</small></div>
+      </article>
+      <article class="video-card">
+        <video controls preload="metadata" playsinline>
+          <source src="assets/videos/02-sketchup-1.mp4" type="video/mp4">
+          Seu navegador não conseguiu carregar este vídeo.
+        </video>
+        <div class="video-caption"><span>Sketchup 1</span><small>VÍDEO DE PROCESSO</small></div>
+      </article>
+      <article class="video-card">
+        <video controls preload="metadata" playsinline>
+          <source src="assets/videos/03-sketchup-2.mp4" type="video/mp4">
+          Seu navegador não conseguiu carregar este vídeo.
+        </video>
+        <div class="video-caption"><span>Sketchup 2</span><small>VÍDEO DE PROCESSO</small></div>
+      </article>
+      <article class="video-card">
+        <video controls preload="metadata" playsinline>
+          <source src="assets/videos/04-sketchup-3.mp4" type="video/mp4">
+          Seu navegador não conseguiu carregar este vídeo.
+        </video>
+        <div class="video-caption"><span>Sketchup 3</span><small>VÍDEO DE PROCESSO</small></div>
+      </article>
+    </div>
+   </div>
+
+   <div class="subhead"><h3>Plantas humanizadas</h3><span>08 — 11</span></div>
+   <div class="gallery-grid">
+        <button class="project-card" type="button" data-full="assets/images/galeria-08.jpg" aria-label="Ampliar imagem 8">
+          <span class="project-image"><img src="assets/images/galeria-08.jpg" alt="Imagem de referência — planta humanizada" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">008</span><span class="project-type">PLANTA HUMANIZADA</span><span class="expand">↗</span></span>
+        </button>
+        <button class="project-card" type="button" data-full="assets/images/galeria-09.jpg" aria-label="Ampliar imagem 9">
+          <span class="project-image"><img src="assets/images/galeria-09.jpg" alt="Imagem de referência — planta humanizada" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">009</span><span class="project-type">PLANTA HUMANIZADA</span><span class="expand">↗</span></span>
+        </button>
+        <button class="project-card" type="button" data-full="assets/images/galeria-10.jpg" aria-label="Ampliar imagem 10">
+          <span class="project-image"><img src="assets/images/galeria-10.jpg" alt="Imagem de referência — planta humanizada" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">010</span><span class="project-type">PLANTA HUMANIZADA</span><span class="expand">↗</span></span>
+        </button>
+        <button class="project-card" type="button" data-full="assets/images/galeria-11.jpg" aria-label="Ampliar imagem 11">
+          <span class="project-image"><img src="assets/images/galeria-11.jpg" alt="Imagem de referência — planta humanizada" loading="lazy"></span>
+          <span class="project-meta"><span class="project-number">011</span><span class="project-type">PLANTA HUMANIZADA</span><span class="expand">↗</span></span>
+        </button></div>
+  </div>
+ </section>
+ <section class="section" id="sobre">
+  <div class="wrap">
+   <div class="eyebrow">03 / Experiência profissional</div>
+   <div class="profile-grid" style="margin-top:26px">
+    <p class="profile-text">Sou <strong>Ezequiel Soares</strong>. Atuo com desenho técnico e desenvolvimento de projetos desde 2006, com experiência em escritórios de arquitetura, construção civil e indústria moveleira. Meu trabalho combina interpretação técnica, modelagem e representação visual para apoiar a rotina de projetos.</p>
+    <aside class="profile-aside">
+     <h3>Ferramentas & conhecimentos</h3>
+     <div class="tool-list"><span>SketchUp</span><span>AutoCAD</span><span>Revit</span><span>Twinmotion</span><span>Unreal Engine 5</span><span>CorelDRAW</span><span>Photoshop</span><span>SolidWorks</span></div>
+    </aside>
+   </div>
+   <div class="timeline">
+    <div><strong>2006</strong><small>Início da atuação em desenho técnico e projetos</small></div>
+    <div><strong>Arquitetura</strong><small>Projetos residenciais e comerciais</small></div>
+    <div><strong>Hoje</strong><small>Modelagem 3D para escritórios de arquitetura</small></div>
+   </div>
+  </div>
+ </section>
+ <section class="contact-section" id="contato">
+  <div class="wrap">
+   <div class="eyebrow">04 / Contato</div>
+   <h2 class="contact-title">Vamos dar forma<br>ao próximo projeto?</h2>
+   <div class="contact-row">
+    <a class="email" href="mailto:ezequielsoares3d@gmail.com">ezequielsoares3d@gmail.com ↗</a>
+    <div class="contact-details">EZEQUIEL SOARES<br>(54) 99162-1684<br>NOVA PETRÓPOLIS — RS</div>
+   </div>
+  </div>
+ </section>
+</main>
+<div class="wrap footer"><span>EZEQUIEL SOARES / MODELAGEM 3D</span><span>APRESENTAÇÃO PROFISSIONAL</span><span>© 2026</span></div>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada"><button class="close" id="close">FECHAR ✕</button><img id="lightbox-image" alt="Imagem ampliada"></div>
+<script>
+const box=document.getElementById('lightbox'), large=document.getElementById('lightbox-image');
+document.querySelectorAll('.project-card').forEach(card=>card.addEventListener('click',()=>{large.src=card.dataset.full;box.classList.add('open');document.body.style.overflow='hidden';}));
+function closeBox(){box.classList.remove('open');large.removeAttribute('src');document.body.style.overflow='';}
+document.getElementById('close').addEventListener('click',closeBox);
+box.addEventListener('click',e=>{if(e.target===box)closeBox();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBox();});
+</script>
+</body>
+</html>
