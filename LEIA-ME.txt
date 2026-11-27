@@ -1,0 +1,13 @@
+PORTFÓLIO EZEQUIEL SOARES 3D — pacote com mídias corrigidas
+
+ESTRUTURA
+- index.html: página inicial para GitHub Pages
+- assets/images/galeria-01.jpg ... galeria-11.jpg: imagens usadas na galeria original
+- assets/images/originais/: cópias das imagens adicionais recebidas no ZIP
+- assets/videos/: os quatro vídeos MP4 recebidos
+
+PUBLICAÇÃO
+Envie o conteúdo desta pasta para a raiz da branch main do repositório GitHub, mantendo a estrutura de pastas. O arquivo inicial deve ficar como index.html.
+
+OBSERVAÇÃO
+O ZIP de referência contém 4 arquivos MP4 (não 5). Todos foram incluídos no bloco “Vídeos de modelagem”. As 11 imagens originais da galeria foram externalizadas do Base64 para arquivos JPG locais, mantendo a sequência e a aparência da galeria.
